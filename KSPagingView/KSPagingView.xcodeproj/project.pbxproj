@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A3067CA15E78DBF006D75B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3067C915E78DBF006D75B5 /* UIKit.framework */; };
+		8A3067CC15E78DBF006D75B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3067CB15E78DBF006D75B5 /* Foundation.framework */; };
+		8A3067CE15E78DBF006D75B5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3067CD15E78DBF006D75B5 /* CoreGraphics.framework */; };
+		8A3067D415E78DBF006D75B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A3067D215E78DBF006D75B5 /* InfoPlist.strings */; };
+		8A3067D615E78DBF006D75B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3067D515E78DBF006D75B5 /* main.m */; };
+		8A3067DA15E78DBF006D75B5 /* KSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3067D915E78DBF006D75B5 /* KSAppDelegate.m */; };
+		8A3067DD15E78DBF006D75B5 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3067DB15E78DBF006D75B5 /* MainStoryboard_iPhone.storyboard */; };
+		8A3067E015E78DBF006D75B5 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3067DE15E78DBF006D75B5 /* MainStoryboard_iPad.storyboard */; };
+		8A3067E315E78DBF006D75B5 /* KSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3067E215E78DBF006D75B5 /* KSViewController.m */; };
+		8A3067EB15E78DBF006D75B5 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3067EA15E78DBF006D75B5 /* SenTestingKit.framework */; };
+		8A3067EC15E78DBF006D75B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3067C915E78DBF006D75B5 /* UIKit.framework */; };
+		8A3067ED15E78DBF006D75B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3067CB15E78DBF006D75B5 /* Foundation.framework */; };
+		8A3067F515E78DC0006D75B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A3067F315E78DC0006D75B5 /* InfoPlist.strings */; };
+		8A3067F815E78DC0006D75B5 /* KSPagingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3067F715E78DC0006D75B5 /* KSPagingViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A3067EE15E78DBF006D75B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A3067BC15E78DBF006D75B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A3067C415E78DBF006D75B5;
+			remoteInfo = KSPagingView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A3067C515E78DBF006D75B5 /* KSPagingView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSPagingView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3067C915E78DBF006D75B5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8A3067CB15E78DBF006D75B5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8A3067CD15E78DBF006D75B5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8A3067D115E78DBF006D75B5 /* KSPagingView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KSPagingView-Info.plist"; sourceTree = "<group>"; };
+		8A3067D315E78DBF006D75B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A3067D515E78DBF006D75B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A3067D715E78DBF006D75B5 /* KSPagingView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KSPagingView-Prefix.pch"; sourceTree = "<group>"; };
+		8A3067D815E78DBF006D75B5 /* KSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSAppDelegate.h; sourceTree = "<group>"; };
+		8A3067D915E78DBF006D75B5 /* KSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSAppDelegate.m; sourceTree = "<group>"; };
+		8A3067DC15E78DBF006D75B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		8A3067DF15E78DBF006D75B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		8A3067E115E78DBF006D75B5 /* KSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSViewController.h; sourceTree = "<group>"; };
+		8A3067E215E78DBF006D75B5 /* KSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSViewController.m; sourceTree = "<group>"; };
+		8A3067E915E78DBF006D75B5 /* KSPagingViewTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSPagingViewTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3067EA15E78DBF006D75B5 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8A3067F215E78DC0006D75B5 /* KSPagingViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KSPagingViewTests-Info.plist"; sourceTree = "<group>"; };
+		8A3067F415E78DC0006D75B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8A3067F615E78DC0006D75B5 /* KSPagingViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSPagingViewTests.h; sourceTree = "<group>"; };
+		8A3067F715E78DC0006D75B5 /* KSPagingViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSPagingViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A3067C215E78DBF006D75B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3067CA15E78DBF006D75B5 /* UIKit.framework in Frameworks */,
+				8A3067CC15E78DBF006D75B5 /* Foundation.framework in Frameworks */,
+				8A3067CE15E78DBF006D75B5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3067E515E78DBF006D75B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3067EB15E78DBF006D75B5 /* SenTestingKit.framework in Frameworks */,
+				8A3067EC15E78DBF006D75B5 /* UIKit.framework in Frameworks */,
+				8A3067ED15E78DBF006D75B5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A3067BA15E78DBF006D75B5 = {
+			isa = PBXGroup;
+			children = (
+				8A3067CF15E78DBF006D75B5 /* KSPagingView */,
+				8A3067F015E78DC0006D75B5 /* KSPagingViewTests */,
+				8A3067C815E78DBF006D75B5 /* Frameworks */,
+				8A3067C615E78DBF006D75B5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A3067C615E78DBF006D75B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A3067C515E78DBF006D75B5 /* KSPagingView.app */,
+				8A3067E915E78DBF006D75B5 /* KSPagingViewTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A3067C815E78DBF006D75B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8A3067C915E78DBF006D75B5 /* UIKit.framework */,
+				8A3067CB15E78DBF006D75B5 /* Foundation.framework */,
+				8A3067CD15E78DBF006D75B5 /* CoreGraphics.framework */,
+				8A3067EA15E78DBF006D75B5 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8A3067CF15E78DBF006D75B5 /* KSPagingView */ = {
+			isa = PBXGroup;
+			children = (
+				8A3067D815E78DBF006D75B5 /* KSAppDelegate.h */,
+				8A3067D915E78DBF006D75B5 /* KSAppDelegate.m */,
+				8A3067DB15E78DBF006D75B5 /* MainStoryboard_iPhone.storyboard */,
+				8A3067DE15E78DBF006D75B5 /* MainStoryboard_iPad.storyboard */,
+				8A3067E115E78DBF006D75B5 /* KSViewController.h */,
+				8A3067E215E78DBF006D75B5 /* KSViewController.m */,
+				8A3067D015E78DBF006D75B5 /* Supporting Files */,
+			);
+			path = KSPagingView;
+			sourceTree = "<group>";
+		};
+		8A3067D015E78DBF006D75B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A3067D115E78DBF006D75B5 /* KSPagingView-Info.plist */,
+				8A3067D215E78DBF006D75B5 /* InfoPlist.strings */,
+				8A3067D515E78DBF006D75B5 /* main.m */,
+				8A3067D715E78DBF006D75B5 /* KSPagingView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A3067F015E78DC0006D75B5 /* KSPagingViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A3067F615E78DC0006D75B5 /* KSPagingViewTests.h */,
+				8A3067F715E78DC0006D75B5 /* KSPagingViewTests.m */,
+				8A3067F115E78DC0006D75B5 /* Supporting Files */,
+			);
+			path = KSPagingViewTests;
+			sourceTree = "<group>";
+		};
+		8A3067F115E78DC0006D75B5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A3067F215E78DC0006D75B5 /* KSPagingViewTests-Info.plist */,
+				8A3067F315E78DC0006D75B5 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A3067C415E78DBF006D75B5 /* KSPagingView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A3067FB15E78DC0006D75B5 /* Build configuration list for PBXNativeTarget "KSPagingView" */;
+			buildPhases = (
+				8A3067C115E78DBF006D75B5 /* Sources */,
+				8A3067C215E78DBF006D75B5 /* Frameworks */,
+				8A3067C315E78DBF006D75B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSPagingView;
+			productName = KSPagingView;
+			productReference = 8A3067C515E78DBF006D75B5 /* KSPagingView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A3067E815E78DBF006D75B5 /* KSPagingViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A3067FE15E78DC0006D75B5 /* Build configuration list for PBXNativeTarget "KSPagingViewTests" */;
+			buildPhases = (
+				8A3067E415E78DBF006D75B5 /* Sources */,
+				8A3067E515E78DBF006D75B5 /* Frameworks */,
+				8A3067E615E78DBF006D75B5 /* Resources */,
+				8A3067E715E78DBF006D75B5 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A3067EF15E78DBF006D75B5 /* PBXTargetDependency */,
+			);
+			name = KSPagingViewTests;
+			productName = KSPagingViewTests;
+			productReference = 8A3067E915E78DBF006D75B5 /* KSPagingViewTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A3067BC15E78DBF006D75B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KS;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Karim Sallam";
+			};
+			buildConfigurationList = 8A3067BF15E78DBF006D75B5 /* Build configuration list for PBXProject "KSPagingView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A3067BA15E78DBF006D75B5;
+			productRefGroup = 8A3067C615E78DBF006D75B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A3067C415E78DBF006D75B5 /* KSPagingView */,
+				8A3067E815E78DBF006D75B5 /* KSPagingViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A3067C315E78DBF006D75B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3067D415E78DBF006D75B5 /* InfoPlist.strings in Resources */,
+				8A3067DD15E78DBF006D75B5 /* MainStoryboard_iPhone.storyboard in Resources */,
+				8A3067E015E78DBF006D75B5 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3067E615E78DBF006D75B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3067F515E78DC0006D75B5 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A3067E715E78DBF006D75B5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A3067C115E78DBF006D75B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3067D615E78DBF006D75B5 /* main.m in Sources */,
+				8A3067DA15E78DBF006D75B5 /* KSAppDelegate.m in Sources */,
+				8A3067E315E78DBF006D75B5 /* KSViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A3067E415E78DBF006D75B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3067F815E78DC0006D75B5 /* KSPagingViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A3067EF15E78DBF006D75B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A3067C415E78DBF006D75B5 /* KSPagingView */;
+			targetProxy = 8A3067EE15E78DBF006D75B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A3067D215E78DBF006D75B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A3067D315E78DBF006D75B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8A3067DB15E78DBF006D75B5 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A3067DC15E78DBF006D75B5 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		8A3067DE15E78DBF006D75B5 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A3067DF15E78DBF006D75B5 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		8A3067F315E78DC0006D75B5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A3067F415E78DC0006D75B5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A3067F915E78DC0006D75B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8A3067FA15E78DC0006D75B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A3067FC15E78DC0006D75B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSPagingView/KSPagingView-Prefix.pch";
+				INFOPLIST_FILE = "KSPagingView/KSPagingView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8A3067FD15E78DC0006D75B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSPagingView/KSPagingView-Prefix.pch";
+				INFOPLIST_FILE = "KSPagingView/KSPagingView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8A3067FF15E78DC0006D75B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KSPagingView.app/KSPagingView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSPagingView/KSPagingView-Prefix.pch";
+				INFOPLIST_FILE = "KSPagingViewTests/KSPagingViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8A30680015E78DC0006D75B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KSPagingView.app/KSPagingView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSPagingView/KSPagingView-Prefix.pch";
+				INFOPLIST_FILE = "KSPagingViewTests/KSPagingViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A3067BF15E78DBF006D75B5 /* Build configuration list for PBXProject "KSPagingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3067F915E78DC0006D75B5 /* Debug */,
+				8A3067FA15E78DC0006D75B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A3067FB15E78DC0006D75B5 /* Build configuration list for PBXNativeTarget "KSPagingView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3067FC15E78DC0006D75B5 /* Debug */,
+				8A3067FD15E78DC0006D75B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8A3067FE15E78DC0006D75B5 /* Build configuration list for PBXNativeTarget "KSPagingViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3067FF15E78DC0006D75B5 /* Debug */,
+				8A30680015E78DC0006D75B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A3067BC15E78DBF006D75B5 /* Project object */;
+}
