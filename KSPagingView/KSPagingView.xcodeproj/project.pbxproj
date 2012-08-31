@@ -21,6 +21,10 @@
 		8A3067ED15E78DBF006D75B5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A3067CB15E78DBF006D75B5 /* Foundation.framework */; };
 		8A3067F515E78DC0006D75B5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8A3067F315E78DC0006D75B5 /* InfoPlist.strings */; };
 		8A3067F815E78DC0006D75B5 /* KSPagingViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3067F715E78DC0006D75B5 /* KSPagingViewTests.m */; };
+		8A30680615E79035006D75B5 /* KSPagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A30680315E79035006D75B5 /* KSPagingView.m */; };
+		8A30680715E79035006D75B5 /* KSPagingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A30680315E79035006D75B5 /* KSPagingView.m */; };
+		8A30680815E79035006D75B5 /* KSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A30680515E79035006D75B5 /* KSView.m */; };
+		8A30680915E79035006D75B5 /* KSView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A30680515E79035006D75B5 /* KSView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +58,10 @@
 		8A3067F415E78DC0006D75B5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8A3067F615E78DC0006D75B5 /* KSPagingViewTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSPagingViewTests.h; sourceTree = "<group>"; };
 		8A3067F715E78DC0006D75B5 /* KSPagingViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSPagingViewTests.m; sourceTree = "<group>"; };
+		8A30680215E79035006D75B5 /* KSPagingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSPagingView.h; sourceTree = "<group>"; };
+		8A30680315E79035006D75B5 /* KSPagingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSPagingView.m; sourceTree = "<group>"; };
+		8A30680415E79035006D75B5 /* KSView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSView.h; sourceTree = "<group>"; };
+		8A30680515E79035006D75B5 /* KSView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +121,7 @@
 		8A3067CF15E78DBF006D75B5 /* KSPagingView */ = {
 			isa = PBXGroup;
 			children = (
+				8A30680115E79035006D75B5 /* KSPagingView */,
 				8A3067D815E78DBF006D75B5 /* KSAppDelegate.h */,
 				8A3067D915E78DBF006D75B5 /* KSAppDelegate.m */,
 				8A3067DB15E78DBF006D75B5 /* MainStoryboard_iPhone.storyboard */,
@@ -152,6 +161,17 @@
 				8A3067F315E78DC0006D75B5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A30680115E79035006D75B5 /* KSPagingView */ = {
+			isa = PBXGroup;
+			children = (
+				8A30680215E79035006D75B5 /* KSPagingView.h */,
+				8A30680315E79035006D75B5 /* KSPagingView.m */,
+				8A30680415E79035006D75B5 /* KSView.h */,
+				8A30680515E79035006D75B5 /* KSView.m */,
+			);
+			path = KSPagingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +286,8 @@
 				8A3067D615E78DBF006D75B5 /* main.m in Sources */,
 				8A3067DA15E78DBF006D75B5 /* KSAppDelegate.m in Sources */,
 				8A3067E315E78DBF006D75B5 /* KSViewController.m in Sources */,
+				8A30680615E79035006D75B5 /* KSPagingView.m in Sources */,
+				8A30680815E79035006D75B5 /* KSView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +296,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A3067F815E78DC0006D75B5 /* KSPagingViewTests.m in Sources */,
+				8A30680715E79035006D75B5 /* KSPagingView.m in Sources */,
+				8A30680915E79035006D75B5 /* KSView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
