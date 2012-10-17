@@ -161,12 +161,12 @@ static const CGFloat kDefaultAnimationDuration = 0.3;
 
 - (NSArray *)visibleViews
 {
-  return [_visibleViews subarrayWithRange:_visibleViewsRange];
+  return [_visibleViews subarrayWithRange:NSMakeRange(_visibleViewsRange.location, _visibleViewsRange.length + 1)];
 }
 
 - (NSArray *)loadedViews
 {
-  return [_visibleViews subarrayWithRange:_loadedViewsRange];
+  return [_visibleViews subarrayWithRange:NSMakeRange(_loadedViewsRange.location, _loadedViewsRange.length + 1)];
 }
 
 - (void)setVisibleViewsRange:(NSRange)newVisibleViewsRange animated:(BOOL)animated
@@ -336,17 +336,13 @@ static const CGFloat kDefaultAnimationDuration = 0.3;
 {
   if (_numberOfViews)
   {
-    /*
-     NSLog(@"viewSize %@", NSStringFromCGSize(viewSize));
-     for (NSInteger index = visibleViewsRange.location; index < NSMaxRange(visibleViewsRange); ++index)
-     {
-     [self configureView:[visibleViews objectAtIndex:index] atIndex:index];
-     }*/
+    for (NSInteger index = _loadedViewsRange.location; index <= NSMaxRange(_loadedViewsRange); ++index)
+    {
+      [self configureView:[_visibleViews objectAtIndex:index] atIndex:index];
+    }
     
-    //NSRange oldVisibleViewsRange = visibleViewsRange;
     [self configureViews]; // Load only the future visible view.
-                           //scrollView.contentSize = [self sizeForScrollViewContent];
-                           //[self setVisibleViewsRange:oldVisibleViewsRange animated:NO];
+    
     [_scrollView flashScrollIndicators];
   }
 }
