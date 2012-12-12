@@ -396,7 +396,7 @@ static const CGFloat kDefaultAnimationDuration = 0.3;
 #pragma mark - UIScrollViewDelegate
 
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
-{ [self configureViews]; }
+{ if (_numberOfViews) [self configureViews]; }
 
 - (void)scrollViewWillBeginDragging:(UIScrollView *)scrollView
 { [self knownToBeMoving]; }
